@@ -3,7 +3,7 @@ from linepy import *
 import json, time, random
 
 client = LineClient()
-#client = LineClient(authToken='AUTH TOKEN')
+#client = LineClient(authToken='AUTH TOKE')
 client.log("Auth Token : " + str(client.authToken))
 
 channel = LineChannel(client)
